@@ -1,0 +1,304 @@
+
+.sadrzaj_o_nama
+{
+	width: 100%;
+}
+
+.prvi_deo
+{
+	width: 100%;
+}
+
+
+
+.tekst_za_sadrzaj_o_nama
+{
+	width: 68%;
+	float: left;
+	background-color: black;
+	color: white;
+	margin: 0.5%;
+	border-radius: 15px;
+}
+
+.tekst_za_sadrzaj_o_nama h1
+{
+	margin-top: 2%;
+	text-align: center;
+	padding: 2%;
+	font-size: 2.6vw;
+}
+
+.tekst_za_sadrzaj_o_nama p
+{
+	text-align: justify;
+	padding: 1% 2%;
+	font-size: 1.5vw;
+	width: 95%;
+	min-width: 95%;
+}
+
+.tekst_za_sadrzaj_o_nama h1:last-child
+{
+	padding-bottom: 6.4%;
+}
+
+
+.slike_za_sadrzaj_o_nama
+{
+	width: 28%;
+	float: left;
+	background-color: black;
+	border-radius: 10px;
+	margin:0.5%;
+	color: white;
+	text-align: center;
+	font-style: italic;
+	padding: 1%;
+	max-height: 100%;
+}
+
+.slike_za_sadrzaj_o_nama img
+{
+	width: 95%;
+	padding: 0 1%;
+	border-radius: 20px;
+}
+
+.slike_za_sadrzaj_o_nama p
+{
+	padding-bottom:0.5%;
+	font-weight: bold;
+	font-size: 1.6vw;
+}
+
+.prvi_deo:after
+{
+	clear:both;
+	content: "";
+	display: block;
+}
+
+.nas_tim
+{
+	width: 99%;
+	margin: 0.5%;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+
+}
+
+.nas_tim h1
+{
+	text-align: center;
+	font-size: 2.5vw;
+	padding-top:0.5%;
+}
+
+.clanovi
+{
+	width: 15.666%;
+	float: left;
+	margin: 0.5%;
+}
+
+.clanovi img
+{
+	padding: 1%;
+	width: 99%;
+	border-radius: 10px;
+}
+
+.clanovi h3
+{
+	font-size: 1.7vw;
+}
+
+.clanovi h3, p
+{
+	text-align: center;
+}
+
+.clanovi p
+{
+	 font-style: italic;
+	 font-weight: bold;
+	 font-size: 1.3vw;
+}
+
+
+.nas_tim:after
+{
+	clear:both;
+	content: "";
+	display: block;
+}
+
+@media screen and (max-width: 1000px)
+{
+	.tekst_za_sadrzaj_o_nama h1
+	{
+		margin-top: 1%;
+		font-size: 4vw;
+	}
+
+	.tekst_za_sadrzaj_o_nama
+	{
+		float: none;
+		width: 99%;
+
+	}
+
+	.tekst_za_sadrzaj_o_nama p
+	{
+		font-size: 2.2vw;
+	}
+
+	.slike_za_sadrzaj_o_nama
+	{
+		float: none;
+		width: 99%;
+	}
+
+	.slike_za_sadrzaj_o_nama p
+	{
+		font-size: 2vw;
+	}
+
+
+	.side_slika
+	{
+		width: 33.33%;
+		float: left;
+	}
+
+	.slike_za_sadrzaj_o_nama:after
+	{
+		clear: both;
+		content: "";
+		display: block;
+	}
+
+	.clanovi h3
+	{
+		font-size: 2.2vw;
+	}
+
+	.clanovi p
+	{
+		font-size: 1.9vw;
+	}
+}
+
+
+@media screen and (max-width: 768px)
+{
+
+	.slike_za_sadrzaj_o_nama p
+	{
+		font-size: 3vw;
+	}
+
+	.nas_tim h1
+	{
+		font-size: 5vw;
+	}
+
+	.clanovi
+	{
+		width: 32.3333%;
+	}
+
+
+	.clanovi h3
+	{
+		font-size: 3vw;
+	}
+
+	.clanovi p
+	{
+		font-size: 2.5vw;
+	}
+
+}
+
+@media screen and (max-width: 610px)
+{
+	.tekst_za_sadrzaj_o_nama h1
+	{
+		font-size: 5vw;
+	}
+
+	.tekst_za_sadrzaj_o_nama p
+	{
+		font-size: 3vw;
+	}
+
+	.slike_za_sadrzaj_o_nama
+	{
+		padding: 0;
+	}
+
+	.side_slika
+	{
+		width: 99%;
+		
+		padding: 0;
+	}
+	.side_slika:first-child
+	{
+		margin:2% 0%;
+	}
+
+	.side_slika p
+	{
+		font-size: 5vw;
+	}
+
+	.clanovi h3
+	{
+		font-size: 3.3vw;
+	}
+
+	.clanovi p
+	{
+		font-size: 2.8vw;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	.tekst_za_sadrzaj_o_nama h1
+	{
+		font-size: 7vw;
+	}
+
+	.tekst_za_sadrzaj_o_nama p
+	{
+		font-size: 4.6vw;
+	}
+
+	.side_slika p
+	{
+		font-size: 7vw;
+	}
+
+
+	.clanovi
+	{
+		width: 49%;
+	}
+
+
+	.clanovi h3
+	{
+		font-size: 6vw;
+	}
+
+	.clanovi p
+	{
+		font-size: 4.5vw;
+	}
+
+}

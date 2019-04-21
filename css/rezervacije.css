@@ -1,0 +1,355 @@
+
+section
+{
+	width: 100%;
+	background-image: url(../slike/4.jpg);
+	background-size: cover;
+}
+
+
+
+.rezervacija_forma
+{
+	width: 70%;
+	margin: 0% 15%;
+	background-color: black;
+	color: white;
+	border-radius: 15px;
+	opacity: 0.9;
+}
+
+.rezervacija_forma form
+{
+	width: 80%;
+	margin: 0 10%;
+}
+
+
+.rezervacija_forma form h1
+{
+	text-align: center;
+	padding: 3% 1%;
+	font-size: 2.4vw;
+}
+
+.rezervacija_forma form label
+{
+   //background-color: yellow;
+   display: block;
+   font-size: 2vw;
+   font-weight: bold;
+   margin: 1.5% 0;
+}
+
+.rezervacija_forma form input
+{
+	width: 70%;
+	font-size: 1.3vw;
+	font-weight: bold;
+	padding: 0.8%;
+}
+
+.rezervacija_forma form input[type="date"]	
+{
+	text-align: center;
+	font-size: 1.4vw;
+}
+
+.rezervacija_forma form select
+{
+	font-size: 1.3vw;
+	font-weight: bold;
+	padding: 0.8%;
+	width: 25%;
+	
+}
+
+
+.rezervacija_forma form option
+{
+	text-align: center;
+	font-size: 1.3vw;
+	font-weight: bold;
+}
+
+.rezervacija_forma textarea
+{
+	width: 72%;
+	height: auto;
+}
+
+.rezervacija_forma form input[type="submit"]
+{
+	width: 35%;
+	float: right;
+	margin-top:5%; 
+	margin-bottom:3%;
+	font-size: 1.5vw;
+	background-color: green;
+	color: white;
+	border-radius: 10px;
+	padding: 1.5%;
+}	
+
+.rezervacija_forma:after
+{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+
+
+@media screen and (max-width: 1000px)
+{
+	.rezervacija_forma form h1
+	{
+		font-size: 3.6vw;
+	}
+
+	.rezervacija_forma form label
+	{
+		font-size: 3vw;
+	}
+
+	.rezervacija_forma form input
+	{
+		width: 70%;
+		font-size: 1.7vw;
+		font-weight: bold;
+		padding: 2.3%;
+	}
+
+	.rezervacija_forma form input[type="date"]	
+	{
+		font-size: 1.9vw;
+	}
+
+	.rezervacija_forma form select
+	{
+		font-size: 2vw;
+		padding: 2%;
+		width: 40%;
+		
+	}
+
+	.rezervacija_forma form option
+	{
+		font-size: 1.6vw;
+	}
+
+	.rezervacija_forma textarea
+	{
+		width: 75%;
+	}
+
+	.rezervacija_forma form input[type="submit"]
+	{
+		font-size: 2.5vw;
+		padding: 3%;
+	}	
+
+}
+
+
+ @media screen and (max-width: 768px)
+ {
+
+ 	.rezervacija_forma
+	{
+		width: 86%;
+		margin: 0% 7%;
+	}
+
+
+	.rezervacija_forma form h1
+	{
+		font-size: 4.5vw;
+	}
+
+	.rezervacija_forma form label
+	{
+		font-size: 4vw;
+	}
+
+	.rezervacija_forma form input
+	{
+		width: 85%;
+		font-size: 2.5vw;
+		font-weight: bold;
+		padding: 2.3%;
+	}
+
+	.rezervacija_forma form input[type="date"]	
+	{
+		font-size: 2.2vw;
+	}
+
+	
+
+	
+	.rezervacija_forma textarea
+	{
+		width: 90%;
+	}
+
+	.rezervacija_forma form input[type="submit"]
+	{
+		font-size: 3vw;
+		padding: 3.5%;
+	}	
+
+
+ }
+
+ @media screen and (max-width: 610px)
+{
+	.rezervacija_forma
+	{
+		width: 90%;
+		margin: 0% 5%;
+	}
+
+	.rezervacija_forma form h1
+	{
+		font-size: 6vw;
+	}
+
+	.rezervacija_forma form label
+	{
+		font-size: 5vw;
+	}
+
+	.rezervacija_forma form input
+	{
+		width: 95%;
+		font-size: 3.2vw;
+	}
+
+	.rezervacija_forma form input[type="date"]	
+	{
+		font-size: 2.5vw;
+	}
+
+	.rezervacija_forma form select
+	{
+		font-size:3.5vw;
+		padding: 2%;
+		width: 60%;
+		
+	}
+
+	.rezervacija_forma form option
+	{
+		font-size: 3vw;
+	}
+
+	.rezervacija_forma textarea
+	{
+		width: 100%;
+	}
+
+	.rezervacija_forma form input[type="submit"]
+	{
+		font-size: 3.8vw;
+		padding: 3%;
+	}	
+
+}
+
+ @media screen and (max-width: 400px)
+ {
+ 	.rezervacija_forma
+	{
+		width: 95%;
+		margin: 0% 2.5%;
+	}
+
+ 	.rezervacija_forma form h1
+	{
+		font-size: 7vw;
+	}
+
+	.rezervacija_forma form label
+	{
+		font-size: 6vw;
+	}
+
+	.rezervacija_forma form input
+	{
+		font-size: 4vw;
+	}
+
+	.rezervacija_forma form input[type="date"]	
+	{
+		font-size: 3vw;
+	}
+
+	.rezervacija_forma form select
+	{
+		font-size:4.3vw;
+		width: 70%;
+		
+	}
+
+	.rezervacija_forma form option
+	{
+		font-size: 3.8vw;
+	}
+
+	.rezervacija_forma textarea
+	{
+		width: 100%;
+	}
+
+	.rezervacija_forma form input[type="submit"]
+	{
+		float: none;
+		width: 80%;
+		margin: 10%;
+		font-size: 6vw;
+	}	
+
+
+ }
+
+ @media screen and (max-width: 268px)
+ {
+ 	.rezervacija_forma form h1
+	{
+		font-size: 9vw;
+	}
+
+	.rezervacija_forma form label
+	{
+		font-size: 8vw;
+	}
+
+	.rezervacija_forma form input
+	{
+		font-size: 4.5vw;
+	}
+
+	.rezervacija_forma form input[type="date"]	
+	{
+		font-size: 4.5vw;
+	}
+
+	.rezervacija_forma form select
+	{
+		font-size:6vw;
+		width: 100%;
+		
+	}
+
+	.rezervacija_forma form option
+	{
+		font-size: 5vw;
+	}
+
+
+	.rezervacija_forma form input[type="submit"]
+	{
+		font-size: 7vw;
+	}	
+ }

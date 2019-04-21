@@ -1,0 +1,53 @@
+
+.slike_za_galeriju 
+{
+	width: 99%;
+	margin: 0.5%;
+}
+
+.slike_za_galeriju img
+{
+	float: left;
+	width: 24%;
+	margin: 0.5%;
+	transition: 0.4s;
+	filter: grayscale(100%);
+}
+
+.slike_za_galeriju img:hover
+{
+	transform: scale(1.1,1.1);
+	filter: grayscale(0%);
+}
+
+.slike_za_galeriju:after
+{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+
+
+@media screen and (max-width: 1000px)
+{
+	.slike_za_galeriju img
+	{
+		width: 49%;
+	}
+}
+
+@media screen and (max-width: 610px)
+{
+	.slike_za_galeriju img
+	{
+		width: 99%;
+		filter: grayscale(0);
+	}
+
+	.slike_za_galeriju img:hover
+	{
+		transform: scale(1.05,1.05);
+	}
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Travel Agency</title>
+	<script type="text/javascript" src="../js/meni.js"></script>
+	<script src="../js/skripta.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/header_footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/rezervacije.css">
+	<link rel="stylesheet" type="text/css" href="../css/fontawesome-all.css">
+</head>
+<body>
+	<header>
+
+			<div class="gornja_navigacija">
+				<ul class="ul_1">
+					<li><i class="fa fa-phone" aria-hidden="true"></i>011/ 78 52 801 </li>
+					<li><i class="fa fa-envelope" aria-hidden="true"></i>info@travel.org</li>
+					<li><i class="fa fa-map-marker" aria-hidden="true"></i>Bulevar Mihaila Pupina 10 Z IV, Beograd</li>
+					<li><i class="fa fa-id-card" aria-hidden="true"></i><a href="#">Registracija naloga</a></li>
+				</ul>
+			</div>
+
+			<div class="donja_navigacija">
+
+				<h1>Travel Agency</h1>
+				<div class="telefon">
+					<a onclick="funkcija()"><i class="fas fa-align-justify"></i></a>
+				</div>
+
+				<nav>
+					<ul id="standard">
+						<li><a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i>Početna</a></li>
+						<li><a href="ponuda.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></i>Ponuda</a></li>
+						<li><a href="galerija.html"><i class="fa fa-camera" aria-hidden="true"></i>Galerija</a></li>
+						<li><a href="#" class="trenutna"><i class="fa fa-address-book" aria-hidden="true"></i>Rezervacije</a></li>
+						<li><a href="o_nama.html"><i class="fa fa-heart" aria-hidden="true"></i>O nama</a></li>
+					</ul>
+			</nav>
+			</div>
+		</header>
+
+		<section>
+			<p>&#160;</p>
+			<div class="rezervacija_forma">
+			<form name="Forma">
+				<h1>Unos podataka:</h1>
+				<div>
+					<label for="ime">Ime:</label>
+					
+					<input type="text" id="ime" minlength="3" required autofocus>
+				</div>
+
+				<div>
+					<label for="prezime">Prezime:</label>
+					
+					<input type="text" id="prezime" required min="3">
+				</div>
+
+				<div>
+					<label for="email" >Email:</label>
+					
+					<input type="email"  id="email" placeholder="example@example.com">
+				</div>
+
+				<div>
+					<label for="telefon">Telefon:</label>
+					
+					<input type="tel" name="telefon" id="telefon" pattern="^[\(][\+](?:38)\d[\)](?:6)\d-\d{2}-\d{2}-\d{3}$" placeholder="(+381)65-12-34-567" title="Koristite format:(+381)65-12-34-567">
+				</div>
+
+				<div>
+					<label for="datum">Datum polaska:</label>
+					
+					<input type="date" id="datum">
+				</div>
+
+				<div>
+					<label for="vrsta_putovanja">Vrsta putovanja:</label>
+					
+					<select id="vrsta_putovanja">
+						<option value="daleka_dest">Daleke destinacije</option>
+						<option value="krstarenje">Krstarenje</option>
+						<option value="letovane">Letovanje</option>
+						<option value="metropole">Metropole</option>
+					</select>
+				</div>
+
+
+				<div>
+					<label for="broj_odraslih">Broj odraslih:</label>
+					
+					<select id="broj_odraslih">
+					  <option value="1">1</option>
+					  <option value="2">2</option>
+					  <option value="3">3</option>
+					  <option value="4">4</option>
+					</select>
+				</div>
+
+				<div>
+					<label for="broj_dece">Broj dece:</label>
+					
+					<select id="broj_dece">
+					  <option value="0">0</option>
+					  <option value="1">1</option>
+					  <option value="2">2</option>
+					  <option value="3">3</option>
+					</select>
+				</div>
+
+				<div>
+					<label for="destinacija">Destinacija:</label>
+					
+					<input type="text" name="destinacija" id="destinacija" minlength="3">
+				</div>
+
+				<div>
+					<label for="Komentar">Komentar:</label>
+					
+						<textarea rows="8" cols="50" id="Komentar">
+						</textarea> 
+				</div>
+
+				<div>
+					<input type="submit" value="Rezerviši!" onclick="provera()">		
+				</div>
+			</form>
+				
+		</div>
+		
+
+		<p>&#160;</p>
+		</section>
+
+
+		
+
+
+
+
+
+		<footer>
+			<ul>
+				<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+				<li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>	
+			</ul>
+
+			<div class="paragrafi">
+				<p>&copy; Copyright 2018</p>	
+				<p>Made by Igy97</p>	
+			</div>
+		</footer>
+
+
+
+	
+
+			
+
+	
+
+
+</body>
+</html>

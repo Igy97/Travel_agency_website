@@ -1,0 +1,598 @@
+
+.forma
+{
+	background-color: black;
+	padding: 1%;
+}
+
+.forma h1
+{
+	text-align: center;
+	padding: 0.5%;
+	color: white;
+	margin-bottom: 0.7%;
+}
+
+.forma div
+{
+	float: left;
+	margin: 0.5%;
+	width: 19%;
+	color: white;
+	position: relative;	
+}
+
+.forma div label
+{
+	font-size: 1.6vw;
+	font-weight: bold;
+}
+
+.forma div select, input[type="date"]	
+{
+	padding: 5% 15%;
+	margin-top:5%;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 1vw;
+}
+
+.forma div select option, input[type="date"]	
+{
+	font-weight: bold;
+	font-size: 1vw;
+}
+
+.forma div input[type="submit"]
+{
+	margin-top: 15%;
+	margin-left: 25%;
+	width: 50%;
+	padding: 4.5%;
+	font-weight: bold;
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+	font-size: 1.2vw;
+}
+
+.forma:after
+{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.ponude_za_kupce
+{
+	width: 98%;
+	margin: 1%;
+	color: white;
+	background-color: black;
+	border-radius: 15px;
+}
+
+.prvi_deo_ponuda
+{
+	padding: 0.9% 0;
+}
+
+.prvi_deo_ponuda h1
+{
+	float: left;
+	margin-top: 1%;
+	margin-left: 14%;
+	font-size: 2.5vw;
+}
+
+.prvi_deo_ponuda ul
+{
+	margin-right: 1%;
+	float: right;
+	list-style-type: none;
+}
+
+.prvi_deo_ponuda ul li
+{
+	float: left;
+	padding: 5px;
+
+}
+
+.prvi_deo_ponuda ul li i
+{
+	font-size: 1.8vw;
+
+}
+
+.prvi_deo_ponuda:after
+{
+	clear: both;
+	display: block;
+	content: "";
+}
+
+.deo_za_sliku
+{
+	float: left;
+	margin-left: 1%;
+	padding: 0.5%;
+}
+
+.deo_za_sliku
+{
+	width: 35%;
+}
+
+.deo_za_sliku img
+{
+	width: 100%;
+	border-radius: 10px;
+}
+.deo_za_tekst
+{
+	margin-top: 0.5%;
+	width: 63%;
+	float: left;
+}
+
+
+.prvi_pod_deo
+{
+	font-size: 2vw;
+	font-weight: bold;
+	padding: 0.5%;
+}
+
+.prvi_pod_deo p:first-child
+{
+	float: left;
+	margin-left: 2%;
+}
+
+.prvi_pod_deo p:last-child
+{
+	float: right;
+	margin-right:3%;
+
+}
+.prvi_pod_deo p:last-child i
+{
+	margin-right: 2px;
+}
+.prvi_pod_deo:after
+{
+	clear: both;
+	display: block;
+	content: "";
+}
+
+
+.drugi_pod_deo p
+{
+	margin-left: 0.5%;
+	padding: 1.5%;
+	font-size: 1.3vw;
+	font-weight: bold;
+}
+
+.drugi_pod_deo i
+{
+	margin-right: 5px;
+}
+
+.treci_pod_deo
+{
+	margin-left: 2%;
+	padding: 1% 1% 1% 0;
+}
+
+.treci_pod_deo p
+{
+  text-align: justify;
+  font-size: 1.4vw;
+}
+
+
+.cetvrti_pod_deo a
+{
+	text-decoration: none;
+	color: white;
+	background-color: yellow;
+	font-size: 1.7vw;
+	display: block;
+	background-color: green;
+	border-radius: 5px;
+	transition: 0.5s;
+
+}
+
+.cetvrti_pod_deo a:hover
+{
+	transform: scale(1.1,1.1);
+}
+
+
+.cetvrti_pod_deo a:first-child
+{
+	float:left;
+	margin-left: 5%;
+	padding: 10px;
+}
+
+.cetvrti_pod_deo a:last-child
+{
+	padding: 10px 28px;
+	float:right;
+	margin-right:5%;
+}
+
+
+
+
+.cetvrti_pod_deo:after
+{
+	clear: both;
+	display: block;
+	content: "";
+}
+
+.ponude_za_kupce:after
+{
+	clear: both;
+	display: block;
+	content: "";
+}
+
+
+ @media screen and (max-width: 1000px)
+ {
+
+ 	.forma div label
+ 	{
+ 		font-size: 2.6vw;
+ 	}
+
+
+ 	.forma div select
+	{
+		padding: 11% 15%;
+		font-size: 1.2vw;
+	}
+
+	.forma div select option	
+	{
+		font-weight: bold;
+		font-size: 1.2vw;
+	}
+
+	input[type="date"]
+	{
+		font-size: 1.2vw;
+		padding: 9%;
+	}
+
+	.forma div input[type="submit"]
+	{
+		margin-top: 20.5%;
+		width: 70%;
+		padding: 8%;
+		font-size: 2vw;
+	}
+
+	.prvi_deo_ponuda h1
+	{
+		font-size: 3.5vw;
+	}
+
+	.prvi_deo_ponuda ul li
+	{
+		margin-top: 2%;
+	}
+
+	.prvi_deo_ponuda ul li i
+	{
+		font-size: 3vw;
+	}
+
+	.deo_za_sliku
+	{
+		float: none;
+		width: 98%;
+		margin: 1%;
+		padding: 0;
+	}
+
+
+	.deo_za_tekst
+	{
+		width: 100%;
+	}
+
+	.prvi_pod_deo
+	{
+		font-size: 3vw;
+	}
+
+	.drugi_pod_deo p
+	{
+		font-size: 2.5vw;
+	}
+
+	.treci_pod_deo p
+	{
+		font-size: 2.2vw;
+	}
+
+	.cetvrti_pod_deo
+	{
+		padding-bottom: 2%;
+	}
+
+	.cetvrti_pod_deo a
+	{
+		font-size: 3.5vw;	
+	}	
+ }
+
+
+ @media screen and (max-width: 768px)
+ {
+
+ 	.forma div 
+ 	{
+ 		width: 30%;
+ 		margin: 1% 10%;
+ 	}
+
+
+ 	.forma div label
+ 	{
+ 		font-size: 3.6vw;
+ 	}
+
+
+ 	.forma div select
+	{
+		padding: 8% 30%;
+		font-size: 1.9vw;
+	}
+
+	.forma div select option
+	{
+		font-size: 1.8vw;
+	}
+
+
+	 input[type="date"]	
+	{
+		font-size: 2.2vw;
+	}
+
+	.forma div input[type="submit"]
+	{
+		margin-top: 10.5%;
+		margin-left: 90%;
+		padding: 9% 20%;
+		font-size: 2.5vw;
+		width: 100%;
+	}
+
+	.prvi_deo_ponuda h1
+	{
+		font-size: 5.5vw;
+	}
+
+	.prvi_deo_ponuda ul li
+	{
+		margin-top: 2%;
+	}
+
+	.prvi_deo_ponuda ul li i
+	{
+		font-size: 5vw;
+	}
+
+
+	.prvi_pod_deo
+	{
+		font-size: 5vw;
+	}
+
+	.drugi_pod_deo p
+	{
+		font-size: 4vw;
+	}
+
+	.treci_pod_deo p
+	{
+		font-size: 2.8vw;
+	}
+
+	.cetvrti_pod_deo
+	{
+		margin-top: 1%;
+		padding-bottom: 3%;
+	}
+
+	.cetvrti_pod_deo a
+	{
+		font-size: 4vw;	
+	}	
+ }
+
+ @media screen and (max-width: 480px)
+ {
+
+ 	.forma div 
+ 	{
+ 		width: 98%;
+ 		margin: 1%;
+ 	}
+
+
+ 	.forma div label
+ 	{
+ 		font-size: 6vw;
+ 		margin: 0;
+ 		padding: 0;
+ 		text-align: center;
+ 	}
+
+
+ 	.forma div select
+	{
+		padding: 6% 0;
+		width: 96%;
+		margin: 2%;
+		font-size: 3vw;
+	}
+
+	.forma div select option
+	{
+		font-size: 3vw;
+	}
+
+
+	 input[type="date"]	
+	{
+		font-size: 2.8vw;
+		width: 96%;
+		margin: 2%;
+		padding: 5% 0%;
+		text-align: center;
+	}
+
+	.forma div input[type="submit"]
+	{
+		margin-top: 0%;
+		margin-left: 0%;
+		padding: 5%;
+		font-size: 5vw;
+		width: 100%;
+	}
+
+
+	.prvi_deo_ponuda h1
+	{
+		margin-left: 0;
+		text-align: center;
+		float: none;
+		font-size: 10vw;
+	}
+
+	.prvi_deo_ponuda ul
+	{
+		width: 70%;
+		margin: 0 20%;
+		margin-left: 19%;
+		margin-top: 2%;
+		float: none;
+	}
+
+	.prvi_deo_ponuda ul li i
+	{
+		font-size: 9vw;
+	}
+
+	.prvi_deo_ponuda ul:after
+	{
+		clear: both;
+		display: block;
+		content: "";
+	}
+
+
+	.prvi_pod_deo
+	{
+		font-size: 8vw;
+	}
+
+	.drugi_pod_deo p
+	{
+		font-size: 6vw;
+	}
+
+	.treci_pod_deo p
+	{
+		font-size: 4vw;
+	}
+
+
+	.cetvrti_pod_deo
+	{
+		margin-top: 2%;
+		padding-bottom: 5%;
+	}
+
+	.cetvrti_pod_deo a:first-child, .cetvrti_pod_deo a:last-child 
+	{
+		float: none;
+		margin: 2% 5%;
+		padding: 4%;
+	}
+
+	.cetvrti_pod_deo a
+	{
+		font-size: 7vw;	
+		width: 80%;
+		text-align: center;
+	}	
+ }
+
+
+@media screen and (max-width: 350px)
+{
+	.forma div label
+ 	{
+ 		font-size: 8vw;
+ 	}
+
+
+ 	.forma div select
+	{
+		font-size: 5.5vw;
+	}
+
+	.forma div select option
+	{
+		font-size: 4.5vw;
+	}
+
+
+	 input[type="date"]	
+	{
+		font-size: 5vw;
+	}
+
+	.forma div input[type="submit"]
+	{
+		margin-top: 0%;
+		margin-left: 0%;
+		padding: 5%;
+		font-size: 5vw;
+		width: 100%;
+	}
+
+
+	
+	.prvi_pod_deo
+	{
+		font-size: 10vw;
+	}
+
+	.drugi_pod_deo p
+	{
+		font-size: 7vw;
+	}
+
+	.treci_pod_deo p
+	{
+		font-size: 6vw;
+	}
+
+}
+
+
+
+
